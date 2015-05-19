@@ -3,7 +3,7 @@ FROM ubuntu:latest
 RUN apt-get update
 RUN apt-get install -y graphviz php5
 
-ADD api.php /root/index.php
+ADD index.php /root/index.php
 
 WORKDIR /root
 
